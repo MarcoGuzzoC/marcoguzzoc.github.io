@@ -3,31 +3,16 @@ layout: default
 title: Accueil
 ---
 
-# 🎓 Bienvenue sur mon portfolio
+# Marco GUZZO
+## PhD student at ETIS, UMR 8051, ENSEA, Cy Cergy Paris University, CNRS 
 
-Utilisez les liens ci-dessous pour naviguer :
+You'll find here some of the work I've done, some of the work I'm doing and some ideas on what I'd like to do later.
 
-- 📘 [Cours](cours.md)
-- 📑 [Articles](articles.md)
-- 🛠️ [Travaux](travaux.md)
+Use the following links to find what you're loking for.
+
+- 📘 [Given classes](cours.md)
+- 📑 [Research projects](articles.md)
+- 🛠️ [Codes and tools](travaux.md)
 
 ---
 
-## Exemple de formule LaTeX
-Inline : \(e^{i\pi} + 1 = 0\)  
-Bloc : 
-$$
-\int_{-\infty}^{\infty} e^{-x^2}\,dx = \sqrt{\pi}
-$$
-
-<!-- MathJax v3 -->
-<script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [['$','$'], ['\\(','\\)']],
-      displayMath: [['$$','$$'], ['\\[','\\]']]
-    },
-    svg: { fontCache: 'global' }
-  };
-</script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
