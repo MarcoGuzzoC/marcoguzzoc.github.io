@@ -1,4 +1,14 @@
-theme: midnight
-title: Marco GUZZO's homepage
+title: "Mon Portfolio"
+theme: jekyll-theme-cayman
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
 
-description: You'll find here some of the interesting things I've done or I'm doing
+header_pages:
+  - index.md
+  - cours.md
+  - articles.md
+  - travaux.md
+
+sass:
+  style: compressed

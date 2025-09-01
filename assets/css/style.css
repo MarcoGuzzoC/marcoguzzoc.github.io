@@ -1,0 +1,15 @@
+body {
+  background-color: #fafafa;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #003366;
+}
+
+span.important {
+  background-color: yellow;
+  font-weight: bold;
+  padding: 2px 4px;
+  border-radius: 4px;
+}

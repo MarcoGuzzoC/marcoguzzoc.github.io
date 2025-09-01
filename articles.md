@@ -3,7 +3,15 @@ layout: default
 title: Articles
 ---
 
-# Mes articles
+# 📑 Articles de recherche
 
-- Article 1 : Estimation de canal
-- Article 2 : Simulation numérique
+## Estimation de canal
+Un petit résumé avec une équation :  
+$$
+\hat{h} = \arg\min_h \| y - Xh \|^2
+$$
+
+### Points clés
+1. Modélisation du canal
+2. Estimation par moindres carrés
+3. Validation par simulation
