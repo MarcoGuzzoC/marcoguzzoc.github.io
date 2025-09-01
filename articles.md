@@ -6,12 +6,22 @@ title: Articles
 # 📑 Articles de recherche
 
 ## Estimation de canal
-Un petit résumé avec une équation :  
 $$
-\hat{h} = \arg\min_h \| y - Xh \|^2
+\hat{h} = \operatorname*{arg\,min}_h \lVert y - Xh \rVert^2
 $$
 
-### Points clés
 1. Modélisation du canal
-2. Estimation par moindres carrés
+2. Moindres carrés
 3. Validation par simulation
+
+<!-- MathJax v3 -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']]
+    },
+    svg: { fontCache: 'global' }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>

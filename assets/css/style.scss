@@ -1,0 +1,7 @@
+---
+---
+@import "{{ site.theme }}";
+
+body { background-color: #fafafa; }
+h1 { color: #003366; }
+span.important { background: yellow; font-weight: bold; padding: 2px 4px; border-radius: 4px; }
