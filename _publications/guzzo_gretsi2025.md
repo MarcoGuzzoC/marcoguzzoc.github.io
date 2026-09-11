@@ -1,9 +1,9 @@
 ---
 title: "Le PAPR du MIMO massif n'augmente pas avec le nombre d'antennes"
 collection: publications
+category: conferences
 permalink: /publication/guzzo_gresti2025
 excerpt: 'This paper gives an analytical expression of the Peak to Average Power Ratio of a downlink multi-user massive MIMO system revoking a misconception found in litterature.'
-category: conferences
 date: 2025-08-27
 venue: '30e Colloque sur le traitement du signal et des images'
 paperurl: 'https://hal.science/hal-05250332v1/file/gretsi_guzzo_2025_final.pdf'
