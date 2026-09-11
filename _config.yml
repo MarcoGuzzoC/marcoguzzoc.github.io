@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "PhD Student in Signal Processing for Telecommunications"
   location         : "Paris"
-  employer         : "ETIS, UMR 8051, ENSEA, CY Paris Université, CNRS"
+  employer         : "ETIS, UMR 8051, <br /> ENSEA, CY Paris Université, CNRS"
   uri              : # URL
   email            : "marco.guzzocholet@ensea.fr" 
 
