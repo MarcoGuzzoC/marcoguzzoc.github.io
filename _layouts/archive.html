@@ -1,13 +1,19 @@
-<!DOCTYPE html>
-<html lang="fr">
+---
+layout: default
+---
 
-<head>
-	<meta charset="utf-8">
-	<title>CV de Sebastien Dupont</title>
-	<meta name="author" content="Jean Dupont">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="styles.css">
-</head>
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
 
 <body>
 	
