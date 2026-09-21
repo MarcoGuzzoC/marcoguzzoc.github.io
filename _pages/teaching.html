@@ -7,25 +7,14 @@ author_profile: true
 
 {% include base_path %}
 
-{% if site.teaching_category %}
-  {% for category in site.teaching_category %}
-    {% assign title_shown = false %}
+{% for category in site.teaching_category %}
 
-    {% for post in site.teaching reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
+  <h2>{{ category[1].title }}</h2>
 
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-
-      {% include archive-single.html %}
-    {% endfor %}
+  {% for post in site.teaching %}
+    {% if post.category == category[0] %}
+      <p>{{ post.title }} — category = {{ post.category }}</p>
+    {% endif %}
   {% endfor %}
-{% else %}
-  {% for post in site.teaching reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+
+{% endfor %}
