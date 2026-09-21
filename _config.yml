@@ -92,13 +92,13 @@ publication_category:
     title: 'Conference Papers'
 
 teaching_category:
-  courses:
+  course:
     title: "Courses"
-  tutorials:
+  tutorial:
     title: "Tutorials"
-  labs:
+  lab:
     title: "Labs"
-  others:
+  other:
     title: "Other Teaching"  
 
 # Site Settings
