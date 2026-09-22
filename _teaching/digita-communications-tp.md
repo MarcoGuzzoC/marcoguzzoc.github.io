@@ -22,4 +22,4 @@ Introduction to digital communications: baseband and bandpass communications.
 
 **Level:** M1 students
 
-**Teaching load:** 8h (2$\times$ 4h)
+**Teaching load:** 8h
