@@ -7,7 +7,7 @@ excerpt: 'This paper presents a new precoding algorithm for massive MIMO system 
 date: 2026-08-25
 venue: 'IEEE Transactions on Telecommunications'
 paperurl: 'https://academicpages.github.io/files/paper2.pdf'
-citation: 'Marco Guzzo, Inbar Fijalkow, Myriam Ariaudo. PAPO: non-linear PA aware massive-MIMO power limited precoding <i>IEEE Transactions on Communications </i>, 2026.'
+citation: 'Marco Guzzo, Inbar Fijalkow, Myriam Ariaudo. &quot;PAPO: non-linear PA aware massive-MIMO power limited precoding.&quot; <i>IEEE Transactions on Communications </i>, 2026.'
 ---
 
 We propose two new precoding algorithms for downlink multi-user massive MIMO systems that take into account and mitigate the effects of the non-linear Power Amplifiers (PA) contained in the antennas. The main objective of the proposed Power Amplifier PrecOding (PAPO) methods
