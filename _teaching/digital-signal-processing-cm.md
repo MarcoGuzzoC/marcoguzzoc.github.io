@@ -5,7 +5,7 @@ collection: teaching
 category: course
 type: "Course"
 
-venue: "ENSEA, DTI"
+venue: "ENSEA"
 location: "Cergy, France"
 date: 2026-01-01
 academic_year: "2025-2027"
