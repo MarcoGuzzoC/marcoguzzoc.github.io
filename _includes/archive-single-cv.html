@@ -39,14 +39,8 @@
     {% if post.venue%}
       <p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> 
     {% endif %}
-    {% if post.type%}
-      <p class="archive__item-excerpt" itemprop="description">{{ post.type }}</p>, 
-    {% endif %}
-    {% if post.location%}
-      <p class="archive__item-excerpt" itemprop="description">{{ post.location }}</p>, 
-    {% endif %}
-    {% if post.academic_year%}
-      <p class="archive__item-excerpt" itemprop="description">{{ post.academic_year }}</p> 
+    {% if post.collection == 'teaching' %}
+      <p>    {% if post.type %}<b>{{ post.type }}</b>{% endif %}    {% if post.venue %}, <i>{{ post.venue }}</i>{% endif %}    {% if post.location %}, {{ post.location }}{% endif %}    {% if post.academic_year %}, {{ post.academic_year }}{% endif %}  </p> 
     {% endif %}
     </li>
  </article>
