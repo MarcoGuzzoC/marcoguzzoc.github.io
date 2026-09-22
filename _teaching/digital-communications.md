@@ -2,20 +2,21 @@
 title: "Digital Communications"
 collection: teaching
 
-category: lab
-type: "Lab"
+category: tutorial
+type: "Tutorial"
 
-venue: "University 1, Department"
-location: "City, Country"
-date: 2025
+venue: "ENSEA, DTI"
+location: "ENSEA, France"
+date: 2024-09-01
+academic_year: "2024-2027"
 
 permalink: /teaching/digital-communications
 ---
 
 Description of the course...
 
-**Topics:** Digital signals, Fourier transform, digital filtering, Z-transform.
+**Topics:** 
 
-**Level:** Engineering students.
+**Level:** 
 
-**Teaching load:** 20 hours.
+**Teaching load:** 

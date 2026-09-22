@@ -5,9 +5,10 @@ collection: teaching
 category: course
 type: "Course"
 
-venue: "University 1, Department"
-location: "City, Country"
-date: 2025
+venue: "ENSEA, DTI"
+location: "Cergy, France"
+date: 2026-01-01
+academic_year: "2025-2027"
 
 permalink: /teaching/digital-signal-processing
 ---
