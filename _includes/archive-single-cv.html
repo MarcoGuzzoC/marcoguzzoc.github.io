@@ -40,7 +40,7 @@
       <p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> 
     {% endif %}
     {% if post.collection == 'teaching' %}
-      <p>    {% if post.type %}<b>{{ post.type }}</b>{% endif %}    {% if post.venue %}, <i>{{ post.venue }}</i>{% endif %}    {% if post.location %}, {{ post.location }}{% endif %}    {% if post.academic_year %}, {{ post.academic_year }}{% endif %}  </p> 
+      <p class="archive__item-excerpt" itemprop="description"> {% if post.type %}<b>{{ post.type }}</b>{% endif %}    {% if post.venue %}, <i>{{ post.venue }}</i>{% endif %}    {% if post.location %}, {{ post.location }}{% endif %}    {% if post.academic_year %}, {{ post.academic_year }}{% endif %}  </p> 
     {% endif %}
     </li>
  </article>
